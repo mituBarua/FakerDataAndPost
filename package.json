@@ -1,0 +1,21 @@
+{
+  "name": "fakedatagenerator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": " nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.17.1",
+    "faker": "^5.0.0",
+    "mssql": "^6.2.1",
+    "nodemon": "^2.0.4"
+  },
+  "devDependencies": {
+    "node-fetch": "^2.6.0"
+  }
+}
